@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-ydmk
     spec:
       containers:
-      - image: quay.io/mkovarik/test-images:05cc516a3f0641fa813b5720c7bfa474
+      - image: quay.io/mkovarik/test-images@sha256:c081e6568ab9fada7b3b96899690167a791301879667024a013301979a401f60
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
